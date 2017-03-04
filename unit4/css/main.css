@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+body {
+	background-color: #FF8C00
+
+}
+
+nav {text-align: right}
+
+h1 {
+	text-align: center;
+    font-family: 'Baloo'; 
+    color: white;
+}
+
+h2 {
+	color: #98FB98;
+}
+
+h3 {
+	Color:white;
+}
+
+h4 {
+	Color:white;
+}
+
+p {
+	Color:white;
+}
