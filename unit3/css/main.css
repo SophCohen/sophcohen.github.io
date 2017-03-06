@@ -5,7 +5,11 @@ body {
 
 }
 
-nav {text-align: right}
+nav {
+	text-align: right;
+	font-family: 'Baloo'; 
+}
+
 
 h1 {
 	text-align: center;
@@ -14,17 +18,30 @@ h1 {
 }
 
 h2 {
-	color: #98FB98;
+	font-family: 'Baloo';
+	color: #c0dec5;
 }
 
 h3 {
 	Color:white;
+	font-family: 'Baloo';
 }
 
 h4 {
 	Color:white;
+	font-family: 'Baloo';
 }
 
 p {
 	Color:white;
+	font-family: 'Baloo';
+	font-weight: 300
+
+}
+
+ul {
+	Color:white;
+	font-family: 'Baloo';
+	font-weight: 300
+
 }
