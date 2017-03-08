@@ -1,26 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 body {
 	background-color: #FF8C00
 
 }
 
+header {text-align: center;
+    font-family: 'Baloo'; 
+    color: white;
+}
+
 nav {
 	text-align: right;
 	font-family: 'Baloo'; 
+	padding: 0 .5em;
 }
 
+bloc1 
+ {
+	text-align: right;
+
+}
 
 h1 {
 	text-align: center;
     font-family: 'Baloo'; 
     color: white;
-  
+    font-size:40px
+
 }
 
 h2 {
 	font-family: 'Baloo';
 	color: #c0dec5;
+	font-size: 1.5em;
+	padding-top: .3em;
+	padding-bottom: .3em;
 }
 
 h3 {
@@ -35,14 +51,15 @@ h4 {
 
 p {
 	Color:white;
-	font-family: 'Baloo';
+	font-family: 'Muli';
 	font-weight: 300
 
 }
 
 ul {
 	Color:white;
-	font-family: 'Baloo';
+	font-family: 'Muli';
 	font-weight: 300
 
 }
+
