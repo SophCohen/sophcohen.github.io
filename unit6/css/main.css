@@ -12,15 +12,43 @@ header {text-align: center;
 }
 
 nav {
-	text-align: right;
-	font-family: 'Baloo'; 
-	padding: 0 .5em;
+  font-family: 'Baloo'; 
+  float: right;
+}
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5em;
+    display: inline-block;
+    	padding: 5px
+  }
+
+ nav a:hover {
+ 	background-color: #c0dec5;
+ }
+
+img { 
+display: block;
+	margin: 0 auto;
+  width: 600px;
 }
 
-div bloc1 
- {
-	text-align: right;
+.column {
+	float: left;
+	width: 420px;
+	height: 200px;
+	padding: 20px;
+	margin: 0;
+}
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 h1 {
@@ -61,5 +89,9 @@ ul {
 	font-family: 'Muli';
 	font-weight: 300
 
+}
+
+#columnright {
+	width:; 450px
 }
 
