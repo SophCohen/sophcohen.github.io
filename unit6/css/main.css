@@ -9,6 +9,7 @@ body {
 header {text-align: center;
     font-family: 'Baloo'; 
     color: white;
+background-image: "images/FV.jpg"
 }
 
 nav {
@@ -91,7 +92,7 @@ ul {
 
 }
 
-#columnright {
-	width:; 450px
+#columnleft {
+	width: 450px;
 }
 
