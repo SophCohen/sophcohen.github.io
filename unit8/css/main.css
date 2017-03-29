@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+	background-color: #FF8C00
+
+}
+
+header {text-align: center;
+    font-family: 'Baloo'; 
+    color: white;
+background-image: "images/FV.jpg"
+}
+
+nav {
+  font-family: 'Baloo'; 
+  float: right;
+}
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5em;
+    display: inline-block;
+    	padding: 5px
+  }
+
+ nav a:hover {
+ 	background-color: #c0dec5;
+ }
+
+img { 
+display: block;
+	margin: 0 auto;
+  width: 600px;
+}
+
+.column {
+	float: left;
+	width: 420px;
+	height: 200px;
+	padding: 20px;
+	margin: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1 {
+	text-align: center;
+    font-family: 'Baloo'; 
+    color: white;
+    font-size: 2em
+
+}
+
+h2 {
+	font-family: 'Baloo';
+	color: #c0dec5;
+	font-size: 1.5em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+h3 {
+	Color:white;
+	font-family: 'Baloo';
+}
+
+h4 {
+	Color:white;
+	font-family: 'Baloo';
+}
+
+p {
+	Color:white;
+	font-family: 'Muli';
+	font-weight: 300
+
+}
+
+ul {
+	Color:white;
+	font-family: 'Muli';
+	font-weight: 300
+
+}
+
+#columnleft {
+	width: 450px;
+}
+
+#image1 img { width: 100%; } 
+
+@media only screen and (max-width: 768px) { #column1, #column2 
+	{ float: none; width: auto; } 
+}
+
+.article { width: 25%; padding: 1%; margin: 1%; }
+
